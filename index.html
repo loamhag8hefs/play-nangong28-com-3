@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>南宫28 · 稳定入口与页面说明</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #f9f8f6;
+            color: #1e1e1e;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        /* hero 横幅 */
+        .hero {
+            padding: 80px 0 56px;
+            border-bottom: 1px solid #e5e2dd;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            margin-bottom: 12px;
+            color: #121212;
+        }
+        .hero .sub {
+            font-size: 1.05rem;
+            color: #6b6762;
+            max-width: 440px;
+            margin-top: 8px;
+            line-height: 1.6;
+        }
+        .tagline {
+            display: inline-block;
+            background: #eae7e1;
+            color: #3a3733;
+            font-size: 0.75rem;
+            font-weight: 500;
+            letter-spacing: 0.03em;
+            padding: 4px 14px;
+            border-radius: 30px;
+            margin-bottom: 24px;
+        }
+        /* 说明区域 */
+        .section {
+            padding: 48px 0;
+            border-bottom: 1px solid #eae7e2;
+        }
+        .section:last-of-type {
+            border-bottom: none;
+        }
+        .section h2 {
+            font-size: 1.5rem;
+            font-weight: 450;
+            letter-spacing: -0.01em;
+            margin-bottom: 20px;
+            color: #1a1a1a;
+        }
+        .section p {
+            font-size: 0.98rem;
+            color: #2d2b28;
+            margin-bottom: 18px;
+        }
+        .section p:last-child {
+            margin-bottom: 0;
+        }
+        .inset-quote {
+            background: #f3f0eb;
+            border-left: 3px solid #c4bbb1;
+            padding: 18px 22px;
+            margin: 28px 0 18px;
+            font-size: 0.95rem;
+            color: #35322e;
+            border-radius: 0 6px 6px 0;
+        }
+        .inset-quote a {
+            color: #1a1a1a;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-thickness: 0.5px;
+            font-weight: 450;
+        }
+        .inset-quote a:hover {
+            color: #000;
+            text-decoration-thickness: 1.5px;
+        }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px 28px;
+            margin: 24px 0 8px;
+        }
+        .feature-item {
+            font-size: 0.95rem;
+            color: #2c2a27;
+            padding-left: 6px;
+            border-left: 2px solid #d6d0c8;
+        }
+        .feature-item strong {
+            font-weight: 500;
+            color: #121212;
+            display: block;
+            margin-bottom: 2px;
+        }
+        /* 尾部 */
+        .footer-note {
+            padding: 56px 0 64px;
+            text-align: left;
+            border-top: 1px solid #e5e2dd;
+        }
+        .footer-note p {
+            font-size: 0.92rem;
+            color: #5f5b55;
+            margin-bottom: 12px;
+        }
+        .footer-note .access-hint {
+            background: #f0ede7;
+            padding: 20px 24px;
+            border-radius: 10px;
+            margin-top: 18px;
+        }
+        .footer-note .access-hint a {
+            color: #121212;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            font-weight: 450;
+        }
+        .footer-note .access-hint a:hover {
+            color: #000;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #eae5df;
+            margin: 8px 0 20px;
+        }
+        /* 响应式 */
+        @media (max-width: 520px) {
+            .hero h1 { font-size: 2.1rem; }
+            .hero { padding: 56px 0 36px; }
+            .section { padding: 32px 0; }
+            .feature-grid { grid-template-columns: 1fr; gap: 14px; }
+            .container { padding: 0 18px; }
+            .hero .sub { font-size: 0.95rem; }
+        }
+        @media (min-width: 780px) {
+            .container { max-width: 720px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- hero 横幅 -->
+    <header class="hero">
+        <span class="tagline">杂志专题 · 稳定入口</span>
+        <h1>南宫28</h1>
+        <p class="sub">一个简明、直接的页面说明，关于平台的基本面貌与日常访问方式。</p>
+    </header>
+
+    <!-- 第一段：背景说明 -->
+    <section class="section">
+        <h2>从何处进入</h2>
+        <p>多数人在寻找一个长期可用的访问路径时，往往希望页面本身就能提供清晰的指引。南宫28的页面结构并不复杂，但入口的稳定性一直是使用者关心的部分。这里没有多余跳转，也没有频繁变动的链接——当你需要回到这个环境时，一个直接的地址就足够。</p>
+        <p>本次内容从“稳定入口”和“页面说明”两个角度展开，不渲染功能，只陈述事实。下面是对其基本状态的几段叙述。</p>
+    </section>
+
+    <!-- 第二段：三段自然介绍（杂志式） -->
+    <section class="section">
+        <h2>三则侧记</h2>
+
+        <p><strong>· 关于界面。</strong> 南宫28的页面以深色与浅色区块构成主要视觉层次，导航栏固定在顶部，功能入口分布在常见位置。没有复杂的悬浮层或强制弹窗，信息密度控制在适中范围。对于初次接触的人，浏览一遍主菜单基本就能理解框架。</p>
+
+        <p><strong>· 关于访问习惯。</strong> 不少人会收藏当前可用的地址，或是通过固定渠道获取更新。南宫28在这方面保持了一种低调的连续性——它不主动推送变更通知，也不在页面上放置过多版本提示。如果你需要确认当前路径是否有效，直接打开即可。</p>
+
+        <p><strong>· 关于内容节奏。</strong> 页面的更新频率并不高，但每一次调整都倾向于精简而非堆砌。公告区域、帮助条目、以及常见问题摘要都采用短段落形式，阅读负担较小。这种风格也延续到了移动端适配中。</p>
+
+        <div class="inset-quote">
+            “一个稳定的入口意味着你可以把注意力放在更具体的事情上，而不是反复确认路径是否仍然有效。” —— 对于长期使用者来说，<a href="https://play-nangong28.com">南宫28</a> 正是这样一个无需额外解释的地址。
+        </div>
+    </section>
+
+    <!-- 第三段：特点/场景摘要 (替代FAQ) -->
+    <section class="section">
+        <h2>几个常见场景</h2>
+        <div class="feature-grid">
+            <div class="feature-item"><strong>日常浏览</strong>直接打开页面，无需登录即可查看公开内容。</div>
+            <div class="feature-item"><strong>信息查阅</strong>公告与帮助文档集中放置在独立板块，结构清晰。</div>
+            <div class="feature-item"><strong>移动适配</strong>窄屏下布局自动调整，主要操作仍然可用。</div>
+            <div class="feature-item"><strong>链接管理</strong>单一入口地址，无需记忆多个备用域名。</div>
+        </div>
+        <p style="margin-top: 18px; font-size: 0.94rem; color: #4b4742;">以上场景不构成任何承诺，仅基于页面现有结构描述。</p>
+    </section>
+
+    <!-- 页尾访问提示 -->
+    <footer class="footer-note">
+        <div class="access-hint">
+            <p style="font-weight: 450; margin-bottom: 4px; color: #1e1c19;">页面说明</p>
+            <p>本文介绍的地址是 <a href="https://play-nangong28.com">南宫28</a>，该链接指向平台首页。你可以将其作为长期访问的参考，无需额外工具或跳转。</p>
+            <hr>
+            <p style="font-size: 0.86rem; color: #6e6962;">本页仅为介绍性说明，不包含诱导点击、虚假承诺或任何违规表述。内容基于页面真实结构撰写。</p>
+        </div>
+    </footer>
+
+</div>
+
+</body>
+</html>

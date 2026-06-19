@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://loamhag8hefs.github.io/play-nangong28-com-3/sitemap.xml
